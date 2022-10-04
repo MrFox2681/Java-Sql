@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.contractForm">
+  <grid id="27dc6" binding="contractPanel" layout-manager="GridLayoutManager" row-count="6" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="829" height="618"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="d8bd9">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="12191">
+            <constraints/>
+          </hspacer>
+          <component id="a4417" class="javax.swing.JButton" binding="carButton">
+            <constraints/>
+            <properties>
+              <text value="Автомобили"/>
+            </properties>
+          </component>
+          <component id="470b3" class="javax.swing.JButton" binding="Button2">
+            <constraints/>
+            <properties>
+              <text value="Счета"/>
+            </properties>
+          </component>
+          <component id="88120" class="javax.swing.JButton" binding="clientsButton">
+            <constraints/>
+            <properties>
+              <text value="Клиенты"/>
+            </properties>
+          </component>
+          <component id="242c0" class="javax.swing.JButton" binding="dogovorButton">
+            <constraints/>
+            <properties>
+              <text value="Договора"/>
+            </properties>
+          </component>
+          <component id="cf371" class="javax.swing.JButton" binding="workWithTableButton">
+            <constraints/>
+            <properties>
+              <text value="Работа с таблицами"/>
+            </properties>
+          </component>
+          <hspacer id="66e45">
+            <constraints/>
+          </hspacer>
+          <component id="554c2" class="javax.swing.JButton" binding="accauntButton">
+            <constraints/>
+            <properties>
+              <text value="Аккаунт"/>
+            </properties>
+          </component>
+          <component id="5c035" class="javax.swing.JButton" binding="exitButton">
+            <constraints/>
+            <properties>
+              <text value="Выход"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <component id="1639c" class="javax.swing.JTable" binding="table1" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="300"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <vspacer id="15b93">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="e6b6c">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="505b6">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="794d6">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="183da">
+        <constraints>
+          <grid row="3" column="4" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="428ae">
+        <constraints>
+          <grid row="3" column="1" row-span="2" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="c779b" class="javax.swing.JButton" binding="sortLowButton">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Отсортировать по возростанию"/>
+        </properties>
+      </component>
+      <component id="478e4" class="javax.swing.JButton" binding="clearButton">
+        <constraints>
+          <grid row="3" column="3" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Сбросить"/>
+        </properties>
+      </component>
+      <component id="12391" class="javax.swing.JButton" binding="sortUpButton">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Отсортировать по убыванию"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

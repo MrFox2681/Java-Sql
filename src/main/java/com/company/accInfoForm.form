@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.accInfoForm">
+  <grid id="27dc6" binding="accInfoPanel" layout-manager="GridLayoutManager" row-count="11" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="848" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="eb7eb">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="960a6">
+            <constraints/>
+          </hspacer>
+          <component id="dd560" class="javax.swing.JButton" binding="carButton">
+            <constraints/>
+            <properties>
+              <text value="Автомобили"/>
+            </properties>
+          </component>
+          <component id="8e1c8" class="javax.swing.JButton" binding="Button2">
+            <constraints/>
+            <properties>
+              <text value="Счета"/>
+            </properties>
+          </component>
+          <component id="7756d" class="javax.swing.JButton" binding="clientsButton">
+            <constraints/>
+            <properties>
+              <text value="Клиенты"/>
+            </properties>
+          </component>
+          <component id="5b1b0" class="javax.swing.JButton" binding="dogovorButton">
+            <constraints/>
+            <properties>
+              <text value="Договора"/>
+            </properties>
+          </component>
+          <component id="62a2e" class="javax.swing.JButton" binding="workWithTableButton">
+            <constraints/>
+            <properties>
+              <text value="Работа с таблицами"/>
+            </properties>
+          </component>
+          <hspacer id="6e7db">
+            <constraints/>
+          </hspacer>
+          <component id="b6a18" class="javax.swing.JButton" binding="accauntButton">
+            <constraints/>
+            <properties>
+              <text value="Аккаунт"/>
+            </properties>
+          </component>
+          <component id="bc367" class="javax.swing.JButton" binding="exitButton">
+            <constraints/>
+            <properties>
+              <text value="Выход"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <vspacer id="a805a">
+        <constraints>
+          <grid row="1" column="6" row-span="10" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="20165" class="javax.swing.JLabel" binding="accName">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="ce079" class="javax.swing.JButton" binding="изменениеЗаписейButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="5" row-span="9" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Изменение записей"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="12991" class="javax.swing.JButton" binding="changePasswordButton">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Сменить пароль"/>
+        </properties>
+      </component>
+      <component id="e6088" class="javax.swing.JPasswordField" binding="actualPasswordField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5e468" class="javax.swing.JPasswordField" binding="newPasswordField">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="fa6fd" class="javax.swing.JPasswordField" binding="repeatNewPasswordField">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <hspacer id="59fd9">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="645f">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="f2c9b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Если хотите сменить пароль:"/>
+        </properties>
+      </component>
+      <component id="34d27" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Введите актуальный пароль:"/>
+        </properties>
+      </component>
+      <component id="fb468" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Введиет новый пароль:"/>
+        </properties>
+      </component>
+      <component id="1c2b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Повторите новый пароль:"/>
+        </properties>
+      </component>
+      <hspacer id="4363f">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="ebcda" class="javax.swing.JLabel" binding="errorMessage">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
